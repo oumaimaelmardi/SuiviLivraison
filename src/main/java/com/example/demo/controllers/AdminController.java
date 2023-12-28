@@ -13,45 +13,47 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entity.Location;
-import com.example.demo.services.LocationService;
+import com.example.demo.entity.Admin;
+import com.example.demo.services.AdminService;
 
 @RestController
-@RequestMapping("api/location")
-public class LocationController {
+@RequestMapping("api/controller")
+public class AdminController {
 
 	@Autowired
-	private LocationService locationService;
+	private AdminService adminService;
 
-	@PostMapping("/save")
-	public Location save(@RequestBody Location entity) {
-		return locationService.save(entity);
+	@PostMapping("/")
+	public Admin save(@RequestBody Admin entity) {
+		return adminService.save(entity);
 	}
 
-	@GetMapping("/all")
-	public List<Location> findAll() {
-		return locationService.findAll();
+	@GetMapping("/")
+	public List<Admin> findAll() {
+		return adminService.findAll();
 	}
+	
 
 	@GetMapping("/id/{id}")
-	public Location findById(@PathVariable int id) {
-		return locationService.findById(id);
+	public Admin findById(@PathVariable int id) {
+		return adminService.findById(id);
 	}
 
 	@DeleteMapping("/id/{id}")
 	public void delete(@PathVariable int id) {
-		locationService.delete(id);
+		adminService.delete(id);
 	}
 
-	@PutMapping("/update")
-	public Location update(@RequestBody Location location) {
-		return locationService.update(location);
+	@PutMapping("/")
+	public Admin update(@RequestBody Admin admin) {
+		return adminService.update(admin);
 	}
 
-	@DeleteMapping("/all")
+	@DeleteMapping("/")
 	public void deleteAll() {
-		locationService.deleteAll();
+		adminService.deleteAll();
 	}
+
 
 	
 	

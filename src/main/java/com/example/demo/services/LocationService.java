@@ -24,13 +24,22 @@ public class LocationService {
 		return locationRepo.findAll();
 	}
 
-	public Optional<Location> findById(Integer id) {
+	public Location findById(int id) {
 		return locationRepo.findById(id);
 	}
 
-	public void delete(Location entity) {
-		locationRepo.delete(entity);
+	public void delete(int id) {
+		locationRepo.delete(id);
 	}
+
+	public Location update(Location location) {
+		return locationRepo.update(location);
+	}
+
+	public void deleteAll() {
+		locationRepo.deleteAll();
+	}
+
 	
 	
 	

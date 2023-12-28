@@ -17,26 +17,36 @@ public class ColisService {
 	@Autowired
 	private ColisRepository colisRepo;
 
-	public Colis save(Colis entity) {
-		return colisRepo.save(entity);
+	public Colis findById(int id) {
+		return colisRepo.findById(id);
+	}
+
+	public Colis save(Colis colis) {
+		return colisRepo.save(colis);
+	}
+
+	public Colis update(Colis colis) {
+		return colisRepo.update(colis);
 	}
 
 	public List<Colis> findAll() {
 		return colisRepo.findAll();
 	}
 
-	public Optional<Colis> findById(Integer id) {
-		return colisRepo.findById(id);
+	public void deleteById(Integer id) {
+		colisRepo.deleteById(id);
 	}
 
-	public void delete(Colis entity) {
-		colisRepo.delete(entity);
+	public void deleteAll() {
+		colisRepo.deleteAll();
 	}
+
 
 	public Colis updateColisLocations(int colisId, Location newLocation) {
 		// Récupérer le colis existant depuis la base de données
-		Colis existingColis = colisRepo.findById(colisId)
-				.orElseThrow(() -> new RuntimeException("Colis not found with id: " + colisId));
+		
+        Colis existingColis = colisRepo.findById(colisId);
+             System.out.println("Colis not found with id: " + colisId);
 
 		// Ajouter les nouvelles locations à la liste
 		List<Location> newList = new ArrayList<>();
@@ -64,5 +74,10 @@ public class ColisService {
 		return colisRepo.findByTrackingNumber(nbr);
 
 	}
+
+
+	
+	
+	
 
 }
