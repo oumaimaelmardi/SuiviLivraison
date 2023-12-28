@@ -26,7 +26,7 @@ public class ColisService {
 	}
 
 	public Colis update(Colis colis) {
-		return colisRepo.update(colis);
+		return colisRepo.save(colis);
 	}
 
 	public List<Colis> findAll() {

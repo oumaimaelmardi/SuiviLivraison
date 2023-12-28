@@ -14,7 +14,7 @@ public interface ColisRepository extends JpaRepository<Colis, Integer>{
 	
 	Colis save(Colis colis);
 	
-	void delete(int id);
 	
-	Colis update(Colis colis);
+	
+	
 }

@@ -28,12 +28,10 @@ public class LocationService {
 		return locationRepo.findById(id);
 	}
 
-	public void delete(int id) {
-		locationRepo.delete(id);
-	}
+	
 
 	public Location update(Location location) {
-		return locationRepo.update(location);
+		return locationRepo.save(location);
 	}
 
 	public void deleteAll() {
