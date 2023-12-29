@@ -23,12 +23,12 @@ public class AdminController {
 	@Autowired
 	private AdminService adminService;
 
-	@PostMapping("/")
+	@PostMapping("/save")
 	public Admin save(@RequestBody Admin entity) {
 		return adminService.save(entity);
 	}
 
-	@GetMapping("/")
+	@GetMapping("/all")
 	public List<Admin> findAll() {
 		return adminService.findAll();
 	}
@@ -55,7 +55,4 @@ public class AdminController {
 	}
 
 
-	
-	
-	
 }
