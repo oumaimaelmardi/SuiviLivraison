@@ -2,6 +2,7 @@ package com.example.demo.entity;
 
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -11,11 +12,12 @@ import jakarta.persistence.OneToMany;
 @Entity
 public class Colis {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String trackingNumber;
 	private String destination;
-	@OneToMany
+	
+	@OneToMany(mappedBy = "colis")
 	private List<Location> currentLocations;
 
 	private String Status;
@@ -48,8 +50,9 @@ public class Colis {
 		return currentLocations;
 	}
 
+	
 	public void setCurrentLocations(List<Location> currentLocations) {
-		currentLocations = currentLocations;
+		this.currentLocations = currentLocations;
 	}
 
 	public String getStatus() {

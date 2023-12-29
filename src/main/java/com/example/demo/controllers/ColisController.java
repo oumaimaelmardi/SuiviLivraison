@@ -14,10 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.Colis;
+import com.example.demo.entity.Location;
 import com.example.demo.services.ColisService;
 
 @RestController
-@RequestMapping("api/controller")
+@RequestMapping("api/colis")
 public class ColisController {
 	@Autowired
 	private ColisService colisService;
@@ -50,6 +51,16 @@ public class ColisController {
 	@DeleteMapping("/")
 	public void deleteAll() {
 		colisService.deleteAll();
+	}
+
+	@PutMapping("/update/{colisId}")
+	public Colis updateColisLocations(@PathVariable int colisId, @RequestBody Location newLocation) {
+		return colisService.updateColisLocations(colisId, newLocation);
+	}
+    
+	@GetMapping("/findByTrackingNumber/{nbr}")
+	public Colis findByTrackingNumber(@PathVariable String nbr) {
+		return colisService.findByTrackingNumber(nbr);
 	}
 
 }

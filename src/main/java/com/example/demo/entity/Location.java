@@ -2,20 +2,38 @@ package com.example.demo.entity;
 
 import java.time.LocalDateTime;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 
 @Entity
+@JsonIgnoreProperties("colis")
 public class Location {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String city;
 
 	private LocalDateTime Timestamp;
 	private String address;
+	@ManyToOne
+	@JoinColumn(name = "colis_id")
+	private Colis colis;
+	
+	
+    
+	public Colis getColis() {
+		return colis;
+	}
+
+	public void setColis(Colis colis) {
+		this.colis = colis;
+	}
 
 	public int getId() {
 		return id;
