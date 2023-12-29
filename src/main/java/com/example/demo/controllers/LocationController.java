@@ -38,10 +38,7 @@ public class LocationController {
 		return locationService.findById(id);
 	}
 
-	@DeleteMapping("/id/{id}")
-	public void delete(@PathVariable int id) {
-		locationService.delete(id);
-	}
+	
 
 	@PutMapping("/update")
 	public Location update(@RequestBody Location location) {

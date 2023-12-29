@@ -19,40 +19,37 @@ import com.example.demo.services.ColisService;
 @RestController
 @RequestMapping("api/controller")
 public class ColisController {
-@Autowired
-private ColisService colisService;
+	@Autowired
+	private ColisService colisService;
 
+	@PostMapping("/save")
+	public Colis save(@RequestBody Colis entity) {
+		return colisService.save(entity);
+	}
 
-@PostMapping("/save")
-public Colis save(@RequestBody Colis entity) {
-	return colisService.save(entity);
-}
+	@GetMapping("/all")
+	public List<Colis> findAll() {
+		return colisService.findAll();
+	}
 
-@GetMapping("/all")
-public List<Colis> findAll() {
-	return colisService.findAll();
-}
+	@GetMapping("/id/{id}")
+	public Colis findById(@PathVariable Integer id) {
+		return colisService.findById(id);
+	}
 
-@GetMapping("/id/{id}")
-public Colis findById(@PathVariable Integer id) {
-	return colisService.findById(id);
-}
+	@DeleteMapping("/id/{id}")
+	public void delete(@PathVariable int id) {
+		colisService.deleteById(id);
+	}
 
-@DeleteMapping("/id/{id}")
-public void delete(@PathVariable int id) {
-	colisService.deleteById(id);
-}
+	@PutMapping("/update")
+	public Colis update(@RequestBody Colis colis) {
+		return colisService.update(colis);
+	}
 
-
-@PutMapping("/update")
-public Colis update( @RequestBody Colis colis) {
-	return colisService.update(colis);
-}
-
-@DeleteMapping("/")
-public void deleteAll() {
-	colisService.deleteAll();
-}
-
+	@DeleteMapping("/")
+	public void deleteAll() {
+		colisService.deleteAll();
+	}
 
 }

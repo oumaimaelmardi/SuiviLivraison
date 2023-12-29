@@ -12,9 +12,9 @@ public interface LocationRepository extends JpaRepository<Location,Integer>{
 
 	Location findById(int id);
 	
+	
+	
+	
+	
 	Location save(Location location);
-	
-	void delete(int id);
-	
-	Location update(Location location);
 }
