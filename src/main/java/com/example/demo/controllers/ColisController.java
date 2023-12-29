@@ -63,4 +63,8 @@ public class ColisController {
 		return colisService.findByTrackingNumber(nbr);
 	}
 
+	@GetMapping("/findByUserId/{id}")
+	public List<Colis> findByUserId(@PathVariable int id) {
+		return colisService.findByUserId(id);
+	}
 }

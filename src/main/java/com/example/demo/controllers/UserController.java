@@ -1,7 +1,6 @@
 package com.example.demo.controllers;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -13,45 +12,43 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entity.Admin;
-import com.example.demo.services.AdminService;
+import com.example.demo.entity.User;
+import com.example.demo.services.UserService;
 
 @RestController
 @RequestMapping("api/controller")
-public class AdminController {
+public class UserController {
 
 	@Autowired
-	private AdminService adminService;
+	private UserService userService;
 
 	@PostMapping("/save")
-	public Admin save(@RequestBody Admin entity) {
-		return adminService.save(entity);
+	public User save(@RequestBody User entity) {
+		return userService.save(entity);
 	}
 
 	@GetMapping("/all")
-	public List<Admin> findAll() {
-		return adminService.findAll();
+	public List<User> findAll() {
+		return userService.findAll();
 	}
 	
 
 	@GetMapping("/id/{id}")
-	public Admin findById(@PathVariable int id) {
-		return adminService.findById(id);
+	public User findById(@PathVariable int id) {
+		return userService.findById(id);
 	}
+
+
 
 	@DeleteMapping("/id/{id}")
 	public void delete(@PathVariable int id) {
-		adminService.delete(id);
+		userService.delete(id);
 	}
 
-	@PutMapping("/")
-	public Admin update(@RequestBody Admin admin) {
-		return adminService.update(admin);
-	}
 
 	@DeleteMapping("/")
 	public void deleteAll() {
-		adminService.deleteAll();
+		userService.deleteAll();
 	}
 
 

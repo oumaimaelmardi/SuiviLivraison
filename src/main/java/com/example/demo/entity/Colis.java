@@ -2,12 +2,7 @@ package com.example.demo.entity;
 
 import java.util.List;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 
 @Entity
 public class Colis {
@@ -20,7 +15,10 @@ public class Colis {
 	@OneToMany(mappedBy = "colis")
 	private List<Location> currentLocations;
 
-	private String Status;
+	private Boolean Status;
+
+	@ManyToOne
+	private User user;
 
 	public int getId() {
 		return id;
@@ -55,12 +53,19 @@ public class Colis {
 		this.currentLocations = currentLocations;
 	}
 
-	public String getStatus() {
+	public Boolean getStatus() {
 		return Status;
 	}
 
-	public void setStatus(String status) {
+	public void setStatus(Boolean status) {
 		Status = status;
 	}
 
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
 }

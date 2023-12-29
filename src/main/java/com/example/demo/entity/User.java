@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
 @Entity
-public class Admin {
+public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
@@ -17,8 +17,8 @@ public class Admin {
 	private String prenom;
 	private String email;
 	
-	@OneToMany
-	private List<Colis> colis;
+	//@OneToMany
+	///private List<Colis> colis;
 
 	public int getId() {
 		return id;
@@ -52,13 +52,7 @@ public class Admin {
 		this.email = email;
 	}
 
-	public List<Colis> getColis() {
-		return colis;
-	}
 
-	public void setColis(List<Colis> colis) {
-		this.colis = colis;
-	}
 	
 	
 	

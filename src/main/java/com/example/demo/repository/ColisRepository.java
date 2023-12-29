@@ -5,6 +5,8 @@ import org.springframework.stereotype.Repository;
 
 import com.example.demo.entity.Colis;
 
+import java.util.List;
+
 @Repository
 public interface ColisRepository extends JpaRepository<Colis, Integer>{
 	
@@ -14,7 +16,7 @@ public interface ColisRepository extends JpaRepository<Colis, Integer>{
 	
 	Colis save(Colis colis);
 	
-	
+	List<Colis> findByUserId(int id);
 	
 	
 }

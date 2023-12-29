@@ -74,10 +74,10 @@ public class ColisService {
 		System.out.println("ooooo" + newList);
 
 		if (existingColis.getDestination().equals(newLocation.getCity())) {
-			existingColis.setStatus("votre colis est arrivé");
+			existingColis.setStatus(true);
 
 		} else {
-			existingColis.setStatus("votre colis est en cours");
+			existingColis.setStatus(false);
 
 		}
 		// Enregistrer les modifications dans la base de données
@@ -87,5 +87,9 @@ public class ColisService {
 	public Colis findByTrackingNumber(String nbr) {
 		return colisRepo.findByTrackingNumber(nbr);
 
+	}
+
+	public List<Colis> findByUserId(int id) {
+		return colisRepo.findByUserId(id);
 	}
 }
