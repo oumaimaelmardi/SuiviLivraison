@@ -1,3 +1,1 @@
-com.example.demo.controllers.UserController#findAll()Ljava/util/List;
-==
-findAll com.example.demo.services.UserService#findAll()Ljava/util/List;
+com.example.demo.controllers.UserController#<init>()V

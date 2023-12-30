@@ -1,15 +1,7 @@
 
-<com.example.demo.entity.Location#getCity()Ljava/lang/String;i
-_/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/entity/Location.java. .("1*«
-1/	 /(v
-t
-/	 /(
-%0java.lang.String"__id*J
-
-__unknown_file (.*,"
- com.example.demo.entity.Location"
-city"$
-/ /(
-
-%0java.lang.StringB$"
- com.example.demo.entity.LocationH
+)com.example.demo.entity.Location#getId()Ii
+_/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/entity/Location.java& &("1*!
+1'	 '("
+' '(
+""B$"
+ com.example.demo.entity.LocationHX

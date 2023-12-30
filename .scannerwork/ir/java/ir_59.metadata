@@ -1,1 +1,1 @@
-com.example.demo.entity.User#getId()I
+com.example.demo.entity.User#getPassword()Ljava/lang/String;

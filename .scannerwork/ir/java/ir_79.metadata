@@ -1,1 +1,1 @@
-com.example.demo.services.LocationService#instance-init#
+com.example.demo.entity.Location#getAddress()Ljava/lang/String;

@@ -1,27 +1,14 @@
 
-vcom.example.demo.services.LocationService#update(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;r
-h/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/services/LocationService.java! !("1*é
-1"	 "(¦
+Ccom.example.demo.services.LocationService#findAll()Ljava/util/List;r
+h/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/services/LocationService.java ("1*Ê
+1	 (¦
 £
-"	 "(4
+	 (4
 %0.com.example.demo.repository.LocationRepository"__id*[
 
 __unknown_file (?*=+
 )com.example.demo.services.LocationService"
-locationRepoú÷
-"	 "($&
-%1 com.example.demo.entity.Location"ycom.example.demo.repository.LocationRepository#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;*R
-
-__unknown_file (6
-4
-%0.com.example.demo.repository.LocationRepository*J
-
-__unknown_file (.
-,
-location com.example.demo.entity.Location2(save(Lcom/example/demo/entity/Location;)"4
-" "(%(
-&
-%1 com.example.demo.entity.Location:8
-! !(),
-location com.example.demo.entity.LocationB-+
+locationRepo"
+ ( 
+""B-+
 )com.example.demo.services.LocationServiceH

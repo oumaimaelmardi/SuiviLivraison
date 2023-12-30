@@ -54,16 +54,18 @@ deleteByIdGcom.example.demo.services.ColisService#deleteById(Ljava/lang/Integer
 savekcom.example.demo.services.ColisService#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;w
 updatemcom.example.demo.services.ColisService#update(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;—
 updateColisLocationscom.example.demo.services.ColisService#updateColisLocations(ILcom/example/demo/entity/Location;)Lcom/example/demo/entity/Colis;java.lang.ObjectD
-.com.example.demo.repository.LocationRepositoryjava.lang.Object ì
+.com.example.demo.repository.LocationRepositoryjava.lang.Object ‡
 com.example.demo.entity.User0
 <init>&com.example.demo.entity.User#<init>()VE
 getEmail9com.example.demo.entity.User#getEmail()Ljava/lang/String;.
 getId%com.example.demo.entity.User#getId()IA
-getNom7com.example.demo.entity.User#getNom()Ljava/lang/String;G
+getNom7com.example.demo.entity.User#getNom()Ljava/lang/String;K
+getPassword<com.example.demo.entity.User#getPassword()Ljava/lang/String;G
 	getPrenom:com.example.demo.entity.User#getPrenom()Ljava/lang/String;F
 setEmail:com.example.demo.entity.User#setEmail(Ljava/lang/String;)V/
 setId&com.example.demo.entity.User#setId(I)VB
-setNom8com.example.demo.entity.User#setNom(Ljava/lang/String;)VH
+setNom8com.example.demo.entity.User#setNom(Ljava/lang/String;)VL
+setPassword=com.example.demo.entity.User#setPassword(Ljava/lang/String;)VH
 	setPrenom;com.example.demo.entity.User#setPrenom(Ljava/lang/String;)Vjava.lang.Objectë
  com.example.demo.entity.Location4
 <init>*com.example.demo.entity.Location#<init>()VM

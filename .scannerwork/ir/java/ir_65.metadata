@@ -1,1 +1,1 @@
-com.example.demo.entity.User#getEmail()Ljava/lang/String;
+com.example.demo.entity.User#getPrenom()Ljava/lang/String;

@@ -1,1 +1,1 @@
-com.example.demo.entity.User#setId(I)V
+com.example.demo.entity.User#setPassword(Ljava/lang/String;)V

@@ -1,3 +1,1 @@
-com.example.demo.controllers.UserController#save(Lcom/example/demo/entity/User;)Lcom/example/demo/entity/User;
-==
-save com.example.demo.services.UserService#save(Lcom/example/demo/entity/User;)Lcom/example/demo/entity/User;
+com.example.demo.controllers.UserController#instance-init#

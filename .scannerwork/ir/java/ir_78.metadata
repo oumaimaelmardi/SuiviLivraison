@@ -1,1 +1,1 @@
-com.example.demo.entity.Location#setAddress(Ljava/lang/String;)V
+com.example.demo.entity.Location#setTimestamp(Ljava/time/LocalDateTime;)V

@@ -1,1 +1,1 @@
-com.example.demo.entity.Location#setTimestamp(Ljava/time/LocalDateTime;)V
+com.example.demo.entity.Location#setCity(Ljava/lang/String;)V

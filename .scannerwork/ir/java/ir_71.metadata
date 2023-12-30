@@ -1,1 +1,1 @@
-com.example.demo.entity.Location#getId()I
+com.example.demo.entity.Location#getColis()Lcom/example/demo/entity/Colis;
