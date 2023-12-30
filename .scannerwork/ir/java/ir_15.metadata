@@ -1,1 +1,1 @@
-com.example.demo.services.UserService#deleteAll()V
+com.example.demo.entity.User#getPassword()Ljava/lang/String;

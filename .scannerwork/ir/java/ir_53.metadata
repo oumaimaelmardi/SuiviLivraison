@@ -1,3 +1,1 @@
-com.example.demo.services.ColisService#findByTrackingNumber(Ljava/lang/String;)Lcom/example/demo/entity/Colis;
-==
-findByTrackingNumber com.example.demo.repository.ColisRepository#findByTrackingNumber(Ljava/lang/String;)Lcom/example/demo/entity/Colis;
+com.example.demo.services.LocationService#deleteAll()V

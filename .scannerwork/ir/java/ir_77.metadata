@@ -1,1 +1,1 @@
-com.example.demo.entity.Location#getTimestamp()Ljava/time/LocalDateTime;
+com.example.demo.services.UserService#deleteAll()V

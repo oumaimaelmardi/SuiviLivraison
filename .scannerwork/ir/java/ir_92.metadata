@@ -1,1 +1,6 @@
-com.example.demo.controllers.UserController#<init>()V
+com.example.demo.services.UserServiceTest#testFindUserById()V
+com.example.demo.entity.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+com.example.demo.entity.User#instance-init#
+==
+findById com.example.demo.repository.UserRepository#findById(I)Lcom/example/demo/entity/User;
+findById com.example.demo.services.UserService#findById(I)Lcom/example/demo/entity/User;

@@ -1,3 +1,10 @@
-com.example.demo.controllers.UserController#save(Lcom/example/demo/entity/User;)Lcom/example/demo/entity/User;
+com.example.demo.services.UserServiceTest#testSave()V
+com.example.demo.entity.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+com.example.demo.entity.User#instance-init#
 ==
+getId com.example.demo.entity.User#getId()I
+save com.example.demo.repository.UserRepository#save(Lcom/example/demo/entity/User;)Lcom/example/demo/entity/User;
 save com.example.demo.services.UserService#save(Lcom/example/demo/entity/User;)Lcom/example/demo/entity/User;
+getNom com.example.demo.entity.User#getNom()Ljava/lang/String;
+setNom com.example.demo.entity.User#setNom(Ljava/lang/String;)V
+setId com.example.demo.entity.User#setId(I)V

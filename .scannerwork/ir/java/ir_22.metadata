@@ -1,3 +1,1 @@
-com.example.demo.controllers.ColisController#update(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
-==
-update com.example.demo.services.ColisService#update(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
+com.example.demo.entity.User#setPrenom(Ljava/lang/String;)V

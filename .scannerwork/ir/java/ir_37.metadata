@@ -1,1 +1,1 @@
-com.example.demo.entity.Colis#getStatus()Ljava/lang/Boolean;
+com.example.demo.entity.Location#getColis()Lcom/example/demo/entity/Colis;

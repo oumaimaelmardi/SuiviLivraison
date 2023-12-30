@@ -1,69 +1,15 @@
 
-…com.example.demo.controllers.ColisController#updateColisLocations(ILcom/example/demo/entity/Location;)Lcom/example/demo/entity/Colis;u
-k/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/controllers/ColisController.java3 3(""startingBlock*ð
-startingBlock3" 3(`š
-—
-2 2(!
-%2"
-__annotate**
+:com.example.demo.entity.User#getPrenom()Ljava/lang/String;i
+_/C:/Users/DELL/eclipse-workspace/SuiviLivraison/src/main/java/com/example/demo/entity/User.java. .("1*©
+1/	 /(t
+r
+/	 /(
+%0java.lang.String"__id*H
 
-__unknown_file (
-
-PutMapping*M
-
-__unknown_file (1
-/
-newLocation com.example.demo.entity.Location›
-˜
-3> 3(J
-%3"
-__annotate*+
-
-__unknown_file (
-RequestBody*M
-
-__unknown_file (1
-/
-newLocation com.example.demo.entity.Location”
-‘
-3T 3(_/
-newLocation com.example.demo.entity.Location"__annotation*"
-
-__unknown_file (
-
-%2*"
-
-__unknown_file (
-
-%3*
-1*”
-14	 4(¡
-ž
-4	 4(,
-%0&com.example.demo.services.ColisService"__id*^
-
-__unknown_file (B*@.
-,com.example.demo.controllers.ColisController"
-colisService­ª
-4	 4(@#
-%1com.example.demo.entity.Colis"com.example.demo.services.ColisService#updateColisLocations(ILcom/example/demo/entity/Location;)Lcom/example/demo/entity/Colis;*J
-
-__unknown_file (.
-,
-%0&com.example.demo.services.ColisService*"
-
-__unknown_file (
-""*M
-
-__unknown_file (1
-/
-newLocation com.example.demo.entity.Location29updateColisLocations(ILcom/example/demo/entity/Location;)"1
-4 4(A%
-#
-%1com.example.demo.entity.Colis: 
-
-__unknown_file (
-"":;
-3> 3(_/
-newLocation com.example.demo.entity.LocationB0.
-,com.example.demo.controllers.ColisControllerH
+__unknown_file (,**
+com.example.demo.entity.User"
+prenom"$
+/ /(
+
+%0java.lang.StringB 
+com.example.demo.entity.UserH

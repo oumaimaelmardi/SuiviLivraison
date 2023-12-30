@@ -1,27 +1,15 @@
 
-Lcom.example.demo.controllers.ColisController#findByUserId(I)Ljava/util/List;u
-k/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/controllers/ColisController.java= =( "1*Ä
-1>	 >(¡
-ž
->	 >(,
-%0&com.example.demo.services.ColisService"__id*^
+9com.example.demo.entity.User#getEmail()Ljava/lang/String;i
+_/C:/Users/DELL/eclipse-workspace/SuiviLivraison/src/main/java/com/example/demo/entity/User.java6 6("1*¨
+17	 7(s
+q
+7	 7(
+%0java.lang.String"__id*G
 
-__unknown_file (B*@.
-,com.example.demo.controllers.ColisController"
-colisServiceìé
->	 >(&
-%1java.util.List"Fcom.example.demo.services.ColisService#findByUserId(I)Ljava/util/List;*J
-
-__unknown_file (.
-,
-%0&com.example.demo.services.ColisService*"
-
-__unknown_file (
-""2findByUserId(I)""
-> >('
-
-%1java.util.List: 
-
-__unknown_file (
-""B0.
-,com.example.demo.controllers.ColisControllerH
+__unknown_file (+*)
+com.example.demo.entity.User"
+email"$
+7 7(
+
+%0java.lang.StringB 
+com.example.demo.entity.UserH

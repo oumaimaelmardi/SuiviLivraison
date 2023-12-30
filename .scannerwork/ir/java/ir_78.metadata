@@ -1,1 +1,1 @@
-com.example.demo.entity.Location#setTimestamp(Ljava/time/LocalDateTime;)V
+com.example.demo.controllers.ColisController#instance-init#

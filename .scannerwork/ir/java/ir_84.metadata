@@ -1,1 +1,3 @@
-com.example.demo.services.LocationService#findAll()Ljava/util/List;
+com.example.demo.controllers.ColisController#update(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
+==
+update com.example.demo.services.ColisService#update(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;

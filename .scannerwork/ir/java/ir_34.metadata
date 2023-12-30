@@ -1,1 +1,1 @@
-com.example.demo.entity.Colis#setDestination(Ljava/lang/String;)V
+com.example.demo.entity.Location#instance-init#

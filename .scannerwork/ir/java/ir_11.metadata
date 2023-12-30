@@ -1,3 +1,18 @@
-com.example.demo.services.UserService#findById(I)Lcom/example/demo/entity/User;
+com.example.demo.services.ColisServiceTest#testUpdateColisLocations()V
+java.util.ArrayList#<init>()V
+com.example.demo.entity.Colis#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Boolean;Lcom/example/demo/entity/User;)V
+com.example.demo.entity.Colis#instance-init#
+com.example.demo.entity.Location#<init>()V
+java.util.ArrayList#instance-init#
+com.example.demo.entity.Location#instance-init#
 ==
-findById com.example.demo.repository.UserRepository#findById(I)Lcom/example/demo/entity/User;
+contains java.util.List#contains(Ljava/lang/Object;)Z
+getCurrentLocations com.example.demo.entity.Colis#getCurrentLocations()Ljava/util/List;
+getId com.example.demo.entity.Colis#getId()I
+findById com.example.demo.repository.ColisRepository#findById(I)Lcom/example/demo/entity/Colis;
+save com.example.demo.repository.LocationRepository#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;
+getTrackingNumber com.example.demo.entity.Colis#getTrackingNumber()Ljava/lang/String;
+save com.example.demo.repository.ColisRepository#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
+updateColisLocations com.example.demo.services.ColisService#updateColisLocations(ILcom/example/demo/entity/Location;)Lcom/example/demo/entity/Colis;
+setId com.example.demo.entity.Colis#setId(I)V
+setCurrentLocations com.example.demo.entity.Colis#setCurrentLocations(Ljava/util/List;)V

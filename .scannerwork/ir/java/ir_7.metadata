@@ -1,1 +1,6 @@
-com.example.demo.repository.ColisRepository#instance-init#
+com.example.demo.services.ColisServiceTest#testFindColisById()V
+com.example.demo.entity.Colis#instance-init#
+com.example.demo.entity.Colis#<init>()V
+==
+findById com.example.demo.repository.ColisRepository#findById(I)Lcom/example/demo/entity/Colis;
+findById com.example.demo.services.ColisService#findById(I)Lcom/example/demo/entity/Colis;

@@ -1,3 +1,1 @@
-com.example.demo.controllers.LocationController#findById(I)Lcom/example/demo/entity/Location;
-==
-findById com.example.demo.services.LocationService#findById(I)Lcom/example/demo/entity/Location;
+com.example.demo.services.ColisServiceTest#setUp()V

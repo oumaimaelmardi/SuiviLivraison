@@ -1,15 +1,15 @@
 
-Ecom.example.demo.entity.Colis#getUser()Lcom/example/demo/entity/User;f
-\/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/entity/Colis.java@ @("1*À
-1A	 A(
-}
-A	 A("
-%0com.example.demo.entity.User"__id*G
+Jcom.example.demo.entity.Location#getColis()Lcom/example/demo/entity/Colis;m
+c/C:/Users/DELL/eclipse-workspace/SuiviLivraison/src/main/java/com/example/demo/entity/Location.java+ +("1*È
+1,	 ,(…
+‚
+,	 ,(#
+%0com.example.demo.entity.Colis"__id*K
 
-__unknown_file (+*)
-com.example.demo.entity.Colis"
-user"0
-A A($
-"
-%0com.example.demo.entity.UserB!
-com.example.demo.entity.ColisH
+__unknown_file (/*-"
+ com.example.demo.entity.Location"
+colis"1
+, ,(%
+#
+%0com.example.demo.entity.ColisB$"
+ com.example.demo.entity.LocationH

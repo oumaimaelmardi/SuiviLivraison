@@ -1,3 +1,1 @@
-com.example.demo.controllers.ColisController#findById(Ljava/lang/Integer;)Lcom/example/demo/entity/Colis;
-==
-findById com.example.demo.services.ColisService#findById(I)Lcom/example/demo/entity/Colis;
+com.example.demo.entity.User#setNom(Ljava/lang/String;)V
