@@ -1,0 +1,27 @@
+
+Wcom.example.demo.services.LocationService#findById(I)Lcom/example/demo/entity/Location;r
+h/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/services/LocationService.java ("1*‡
+1	 (¦
+£
+	 (4
+%0.com.example.demo.repository.LocationRepository"__id*[
+
+__unknown_file (?*=+
+)com.example.demo.services.LocationService"
+locationRepo˜•
+	 ("&
+%1 com.example.demo.entity.Location"\com.example.demo.repository.LocationRepository#findById(I)Lcom/example/demo/entity/Location;*R
+
+__unknown_file (6
+4
+%0.com.example.demo.repository.LocationRepository*"
+
+__unknown_file (
+""2findById(I)"4
+ (#(
+&
+%1 com.example.demo.entity.Location: 
+
+__unknown_file (
+""B-+
+)com.example.demo.services.LocationServiceH

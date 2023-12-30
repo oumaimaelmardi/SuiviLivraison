@@ -71,15 +71,9 @@ public class ColisService {
 		existingColis.setCurrentLocations(newList);
 		newLocation.setColis(existingColis);
 		locaRepo.save(newLocation);
-		System.out.println("ooooo" + newList);
 
-		if (existingColis.getDestination().equals(newLocation.getCity())) {
-			existingColis.setStatus(true);
+		existingColis.setStatus(existingColis.getDestination().equals(newLocation.getCity()));
 
-		} else {
-			existingColis.setStatus(false);
-
-		}
 		// Enregistrer les modifications dans la base de données
 		return colisRepo.save(existingColis);
 	}

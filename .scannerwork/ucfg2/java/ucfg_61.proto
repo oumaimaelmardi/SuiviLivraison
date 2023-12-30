@@ -1,0 +1,27 @@
+
+tcom.example.demo.services.LocationService#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;r
+h/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/services/LocationService.java ("1*ç
+1	 (¦
+£
+	 (4
+%0.com.example.demo.repository.LocationRepository"__id*[
+
+__unknown_file (?*=+
+)com.example.demo.services.LocationService"
+locationRepoøõ
+	 ("&
+%1 com.example.demo.entity.Location"ycom.example.demo.repository.LocationRepository#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;*R
+
+__unknown_file (6
+4
+%0.com.example.demo.repository.LocationRepository*H
+
+__unknown_file (,
+*
+entity com.example.demo.entity.Location2(save(Lcom/example/demo/entity/Location;)"4
+ (#(
+&
+%1 com.example.demo.entity.Location:6
+ (%*
+entity com.example.demo.entity.LocationB-+
+)com.example.demo.services.LocationServiceH

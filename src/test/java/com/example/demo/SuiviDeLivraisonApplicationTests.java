@@ -8,6 +8,9 @@ class SuiviDeLivraisonApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// This test is a placeholder for future implementations.
+		// Currently empty as it serves as a placeholder for context loading.
+
 	}
 
 }

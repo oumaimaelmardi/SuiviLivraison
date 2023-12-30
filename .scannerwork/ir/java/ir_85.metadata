@@ -1,0 +1,3 @@
+com.example.demo.services.LocationService#findById(I)Lcom/example/demo/entity/Location;
+==
+findById com.example.demo.repository.LocationRepository#findById(I)Lcom/example/demo/entity/Location;

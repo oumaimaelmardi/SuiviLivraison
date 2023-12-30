@@ -1,0 +1,62 @@
+
+zcom.example.demo.controllers.LocationController#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;x
+n/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/controllers/LocationController.java ("startingBlock*‚
+startingBlock (3ñ
+ì
+ (
+%2"
+__annotate*+
+
+__unknown_file (
+PostMapping*H
+
+__unknown_file (,
+*
+entity com.example.demo.entity.Locationñ
+ì
+ ("
+%3"
+__annotate*+
+
+__unknown_file (
+RequestBody*H
+
+__unknown_file (,
+*
+entity com.example.demo.entity.Locationè
+å
+, (2*
+entity com.example.demo.entity.Location"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*·
+1	 (™
+ß
+	 (/
+%0)com.example.demo.services.LocationService"__id*d
+
+__unknown_file (H*F1
+/com.example.demo.controllers.LocationController"
+locationServiceÓÎ
+	 (%&
+%1 com.example.demo.entity.Location"tcom.example.demo.services.LocationService#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;*M
+
+__unknown_file (1
+/
+%0)com.example.demo.services.LocationService*H
+
+__unknown_file (,
+*
+entity com.example.demo.entity.Location2(save(Lcom/example/demo/entity/Location;)"4
+ (&(
+&
+%1 com.example.demo.entity.Location:6
+ (2*
+entity com.example.demo.entity.LocationB31
+/com.example.demo.controllers.LocationControllerH

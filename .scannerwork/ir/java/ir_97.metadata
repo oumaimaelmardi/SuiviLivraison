@@ -1,0 +1,3 @@
+com.example.demo.controllers.UserController#deleteAll()V
+==
+deleteAll com.example.demo.services.UserService#deleteAll()V

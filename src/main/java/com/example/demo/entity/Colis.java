@@ -15,7 +15,7 @@ public class Colis {
 	@OneToMany(mappedBy = "colis")
 	private List<Location> currentLocations;
 
-	private Boolean Status;
+	private Boolean status;
 
 	@ManyToOne
 	private User user;
@@ -54,11 +54,11 @@ public class Colis {
 	}
 
 	public Boolean getStatus() {
-		return Status;
+		return status;
 	}
 
 	public void setStatus(Boolean status) {
-		Status = status;
+		this.status = status;
 	}
 
 	public User getUser() {
