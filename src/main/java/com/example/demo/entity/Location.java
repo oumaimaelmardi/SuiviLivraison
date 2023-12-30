@@ -19,7 +19,7 @@ public class Location {
 	private int id;
 	private String city;
 
-	private LocalDateTime Timestamp;
+	private LocalDateTime timestamp;
 	private String address;
 	@ManyToOne
 	@JoinColumn(name = "colis_id")
@@ -27,6 +27,19 @@ public class Location {
 	
 	
     
+	public Location(int id, String city, LocalDateTime timestamp, String address, Colis colis) {
+		super();
+		this.id = id;
+		this.city = city;
+		this.timestamp = timestamp;
+		this.address = address;
+		this.colis = colis;
+	}
+
+	public Location() {
+		super();
+	}
+
 	public Colis getColis() {
 		return colis;
 	}
@@ -52,11 +65,11 @@ public class Location {
 	}
 
 	public LocalDateTime getTimestamp() {
-		return Timestamp;
+		return timestamp;
 	}
 
 	public void setTimestamp(LocalDateTime timestamp) {
-		Timestamp = timestamp;
+		this.timestamp = timestamp;
 	}
 
 	public String getAddress() {

@@ -1,0 +1,3 @@
+com.example.demo.services.ColisService#findById(I)Lcom/example/demo/entity/Colis;
+==
+findById com.example.demo.repository.ColisRepository#findById(I)Lcom/example/demo/entity/Colis;

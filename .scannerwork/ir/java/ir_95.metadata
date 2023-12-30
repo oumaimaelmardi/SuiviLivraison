@@ -1,0 +1,3 @@
+com.example.demo.controllers.UserController#findById(I)Lcom/example/demo/entity/User;
+==
+findById com.example.demo.services.UserService#findById(I)Lcom/example/demo/entity/User;
