@@ -17,8 +17,8 @@ public class User {
 	private String prenom;
 	private String email;
 	private String password;
-	//@OneToMany
-	///private List<Colis> colis;
+	// @OneToMany
+	/// private List<Colis> colis;
 
 	public String getPassword() {
 		return password;
@@ -60,9 +60,13 @@ public class User {
 		this.email = email;
 	}
 
-
-	
-	
-	
+	public User(int id, String nom, String prenom, String email, String password) {
+		super();
+		this.id = id;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.password = password;
+	}
 
 }
