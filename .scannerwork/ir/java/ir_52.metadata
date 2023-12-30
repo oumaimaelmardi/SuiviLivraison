@@ -1,0 +1,16 @@
+com.example.demo.services.ColisService#updateColisLocations(ILcom/example/demo/entity/Location;)Lcom/example/demo/entity/Colis;
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+==
+getCurrentLocations com.example.demo.entity.Colis#getCurrentLocations()Ljava/util/List;
+setColis com.example.demo.entity.Location#setColis(Lcom/example/demo/entity/Colis;)V
+findById com.example.demo.repository.ColisRepository#findById(I)Lcom/example/demo/entity/Colis;
+getCity com.example.demo.entity.Location#getCity()Ljava/lang/String;
+add java.util.List#add(Ljava/lang/Object;)Z
+save com.example.demo.repository.LocationRepository#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;
+println java.io.PrintStream#println(Ljava/lang/String;)V
+getDestination com.example.demo.entity.Colis#getDestination()Ljava/lang/String;
+save com.example.demo.repository.ColisRepository#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
+setStatus com.example.demo.entity.Colis#setStatus(Ljava/lang/Boolean;)V
+setCurrentLocations com.example.demo.entity.Colis#setCurrentLocations(Ljava/util/List;)V

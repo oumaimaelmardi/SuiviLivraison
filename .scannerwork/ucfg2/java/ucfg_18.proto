@@ -1,0 +1,27 @@
+
+Lcom.example.demo.controllers.ColisController#findByUserId(I)Ljava/util/List;u
+k/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/controllers/ColisController.java= =( "1*Ä
+1>	 >(¡
+ž
+>	 >(,
+%0&com.example.demo.services.ColisService"__id*^
+
+__unknown_file (B*@.
+,com.example.demo.controllers.ColisController"
+colisServiceìé
+>	 >(&
+%1java.util.List"Fcom.example.demo.services.ColisService#findByUserId(I)Ljava/util/List;*J
+
+__unknown_file (.
+,
+%0&com.example.demo.services.ColisService*"
+
+__unknown_file (
+""2findByUserId(I)""
+> >('
+
+%1java.util.List: 
+
+__unknown_file (
+""B0.
+,com.example.demo.controllers.ColisControllerH

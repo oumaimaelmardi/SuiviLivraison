@@ -1,0 +1,21 @@
+
+Fcom.example.demo.controllers.ColisController#findAll()Ljava/util/List;u
+k/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/controllers/ColisController.java ("1*”
+1	 (¡
+ž
+	 (,
+%0&com.example.demo.services.ColisService"__id*^
+
+__unknown_file (B*@.
+,com.example.demo.controllers.ColisController"
+colisService¼¹
+	 (
+%1java.util.List"@com.example.demo.services.ColisService#findAll()Ljava/util/List;*J
+
+__unknown_file (.
+,
+%0&com.example.demo.services.ColisService2	findAll()""
+ ( 
+
+%1java.util.ListB0.
+,com.example.demo.controllers.ColisControllerH

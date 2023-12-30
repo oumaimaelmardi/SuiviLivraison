@@ -1,0 +1,3 @@
+com.example.demo.services.LocationService#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;
+==
+save com.example.demo.repository.LocationRepository#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;
