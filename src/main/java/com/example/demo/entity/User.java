@@ -16,9 +16,17 @@ public class User {
 	private String nom;
 	private String prenom;
 	private String email;
-	
+	private String password;
 	//@OneToMany
 	///private List<Colis> colis;
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
 	public int getId() {
 		return id;
