@@ -1,1 +1,12 @@
-com.example.demo.entity.Colis#getTrackingNumber()Ljava/lang/String;
+com.example.demo.services.LocationServiceTest#testFindLocationById()V
+com.example.demo.entity.Colis#instance-init#
+com.example.demo.entity.Location#<init>(ILjava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/String;Lcom/example/demo/entity/Colis;)V
+java.time.LocalDateTime#now()Ljava/time/LocalDateTime;
+com.example.demo.entity.Location#instance-init#
+com.example.demo.entity.Colis#<init>()V
+==
+setTrackingNumber com.example.demo.entity.Colis#setTrackingNumber(Ljava/lang/String;)V
+setDestination com.example.demo.entity.Colis#setDestination(Ljava/lang/String;)V
+setId com.example.demo.entity.Colis#setId(I)V
+findById com.example.demo.repository.LocationRepository#findById(I)Lcom/example/demo/entity/Location;
+findById com.example.demo.services.LocationService#findById(I)Lcom/example/demo/entity/Location;

@@ -1,1 +1,1 @@
-com.example.demo.controllers.ColisController#instance-init#
+com.example.demo.entity.User#setPassword(Ljava/lang/String;)V

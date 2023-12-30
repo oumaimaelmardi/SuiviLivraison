@@ -1,1 +1,3 @@
-com.example.demo.entity.Colis#getCurrentLocations()Ljava/util/List;
+com.example.demo.entity.Location#<init>(ILjava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/String;Lcom/example/demo/entity/Colis;)V
+==
+<init> java.lang.Object#<init>()V

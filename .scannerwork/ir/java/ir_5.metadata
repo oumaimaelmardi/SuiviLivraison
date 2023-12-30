@@ -1,3 +1,13 @@
-com.example.demo.controllers.LocationController#update(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;
+com.example.demo.services.ColisServiceTest#testSaveColis()V
+java.util.ArrayList#<init>()V
+com.example.demo.entity.Colis#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Boolean;Lcom/example/demo/entity/User;)V
+com.example.demo.entity.Colis#instance-init#
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+java.util.ArrayList#instance-init#
+com.example.demo.entity.Location#<init>()V
+com.example.demo.entity.Location#instance-init#
 ==
-update com.example.demo.services.LocationService#update(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;
+save com.example.demo.repository.LocationRepository#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;
+save com.example.demo.repository.ColisRepository#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
+setCurrentLocations com.example.demo.entity.Colis#setCurrentLocations(Ljava/util/List;)V
+save com.example.demo.services.ColisService#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;

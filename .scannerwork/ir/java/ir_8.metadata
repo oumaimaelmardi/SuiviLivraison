@@ -1,1 +1,10 @@
-com.example.demo.repository.ColisRepository#<init>()V
+com.example.demo.services.ColisServiceTest#testFindAllColis()V
+java.util.ArrayList#<init>()V
+com.example.demo.entity.Colis#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Boolean;Lcom/example/demo/entity/User;)V
+com.example.demo.entity.Colis#instance-init#
+java.util.ArrayList#instance-init#
+==
+findAll com.example.demo.services.ColisService#findAll()Ljava/util/List;
+add java.util.List#add(Ljava/lang/Object;)Z
+size java.util.List#size()I
+containsAll java.util.List#containsAll(Ljava/util/Collection;)Z

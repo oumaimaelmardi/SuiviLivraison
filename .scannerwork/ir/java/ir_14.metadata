@@ -1,1 +1,1 @@
-com.example.demo.services.UserService#findAll()Ljava/util/List;
+com.example.demo.entity.User#instance-init#

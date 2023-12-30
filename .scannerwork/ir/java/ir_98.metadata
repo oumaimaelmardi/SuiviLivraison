@@ -1,1 +1,3 @@
-com.example.demo.repository.UserRepository#instance-init#
+com.example.demo.entity.Colis#<init>()V
+==
+<init> java.lang.Object#<init>()V

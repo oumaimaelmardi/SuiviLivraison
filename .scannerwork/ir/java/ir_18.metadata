@@ -1,3 +1,1 @@
-com.example.demo.controllers.ColisController#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
-==
-save com.example.demo.services.ColisService#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
+com.example.demo.entity.User#setId(I)V

@@ -1,0 +1,6 @@
+com.example.demo.services.ColisService#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
+==
+getCurrentLocations com.example.demo.entity.Colis#getCurrentLocations()Ljava/util/List;
+setColis com.example.demo.entity.Location#setColis(Lcom/example/demo/entity/Colis;)V
+save com.example.demo.repository.LocationRepository#save(Lcom/example/demo/entity/Location;)Lcom/example/demo/entity/Location;
+save com.example.demo.repository.ColisRepository#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;

@@ -1,1 +1,1 @@
-com.example.demo.SuiviDeLivraisonApplicationTests#instance-init#
+com.example.demo.entity.Location#getCity()Ljava/lang/String;

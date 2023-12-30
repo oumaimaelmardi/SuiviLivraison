@@ -9,6 +9,21 @@ public class Colis {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
+	public Colis() {
+		super();
+	}
+
+	public Colis(int id, String trackingNumber, String destination, List<Location> currentLocations, Boolean status,
+			User user) {
+		super();
+		this.id = id;
+		this.trackingNumber = trackingNumber;
+		this.destination = destination;
+		this.currentLocations = currentLocations;
+		this.status = status;
+		this.user = user;
+	}
+
 	private String trackingNumber;
 	private String destination;
 	
@@ -34,6 +49,16 @@ public class Colis {
 
 	public void setTrackingNumber(String trackingNumber) {
 		this.trackingNumber = trackingNumber;
+	}
+
+	public Colis(String trackingNumber, String destination, List<Location> currentLocations, Boolean status,
+			User user) {
+		super();
+		this.trackingNumber = trackingNumber;
+		this.destination = destination;
+		this.currentLocations = currentLocations;
+		this.status = status;
+		this.user = user;
 	}
 
 	public String getDestination() {

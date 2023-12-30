@@ -1,3 +1,6 @@
-com.example.demo.controllers.LocationController#deleteAll()V
+com.example.demo.services.ColisServiceTest#testUpdateColis()V
+com.example.demo.entity.Colis#instance-init#
+com.example.demo.entity.Colis#<init>()V
 ==
-deleteAll com.example.demo.services.LocationService#deleteAll()V
+save com.example.demo.repository.ColisRepository#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;
+update com.example.demo.services.ColisService#update(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;

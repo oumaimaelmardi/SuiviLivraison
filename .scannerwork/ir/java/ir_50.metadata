@@ -1,1 +1,1 @@
-com.example.demo.services.ColisService#deleteById(Ljava/lang/Integer;)V
+com.example.demo.services.LocationService#findAll()Ljava/util/List;

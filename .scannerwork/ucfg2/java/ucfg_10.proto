@@ -1,62 +1,16 @@
 
-qcom.example.demo.controllers.ColisController#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;u
-k/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/controllers/ColisController.java ("startingBlock*Ÿ
-startingBlock (-ì
-ê
- (
-%2"
-__annotate*+
+<com.example.demo.entity.User#getPassword()Ljava/lang/String;i
+_/C:/Users/DELL/eclipse-workspace/SuiviLivraison/src/main/java/com/example/demo/entity/User.java ("1*´
+1	 (v
+t
+	 (
+%0java.lang.String"__id*J
 
-__unknown_file (
-PostMapping*E
-
-__unknown_file ()
-'
-entitycom.example.demo.entity.Colisì
-ê
- (
-%3"
-__annotate*+
-
-__unknown_file (
-RequestBody*E
-
-__unknown_file ()
-'
-entitycom.example.demo.entity.Coliså
-â
-& (,'
-entitycom.example.demo.entity.Colis"__annotation*"
-
-__unknown_file (
-
-%2*"
-
-__unknown_file (
-
-%3*
-1*¿
-1	 (°
-û
-	 (,
-%0&com.example.demo.services.ColisService"__id*^
-
-__unknown_file (B*@.
-,com.example.demo.controllers.ColisController"
-colisServiceŸ÷
-	 ("#
-%1com.example.demo.entity.Colis"kcom.example.demo.services.ColisService#save(Lcom/example/demo/entity/Colis;)Lcom/example/demo/entity/Colis;*J
-
-__unknown_file (.
-,
-%0&com.example.demo.services.ColisService*E
-
-__unknown_file ()
-'
-entitycom.example.demo.entity.Colis2%save(Lcom/example/demo/entity/Colis;)"1
- (#%
-#
-%1com.example.demo.entity.Colis:3
- (,'
-entitycom.example.demo.entity.ColisB0.
-,com.example.demo.controllers.ColisControllerH
+__unknown_file (.*,
+com.example.demo.entity.User"
+
+password"$
+ (
+
+%0java.lang.StringB 
+com.example.demo.entity.UserH

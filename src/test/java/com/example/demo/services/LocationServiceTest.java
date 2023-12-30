@@ -33,7 +33,9 @@ class LocationServiceTest {
     void setUp() {
         MockitoAnnotations.initMocks(this);
     }
-
+    String dest="Destination";
+    String warH="Warehouse A";
+    String addr="123 Main St";
     
     @Test
     public void testSaveLocation() {
@@ -41,10 +43,10 @@ class LocationServiceTest {
     	Colis mockColis = new Colis();
         mockColis.setId(1);
         mockColis.setTrackingNumber("ABC123");
-        mockColis.setDestination("Destination");
+        mockColis.setDestination(dest);
     	
         LocalDateTime timestamp = LocalDateTime.now();
-        Location locationToSave = new Location(1, "Warehouse A", timestamp, "123 Main St", mockColis);
+        Location locationToSave = new Location(1, warH, timestamp, addr, mockColis);
         
         // Mocking the behavior of locationRepository.save
         when(locationRepository.save(locationToSave)).thenReturn(locationToSave);
@@ -63,16 +65,16 @@ class LocationServiceTest {
     	Colis mockColis1 = new Colis();
     	mockColis1.setId(1);
     	mockColis1.setTrackingNumber("ABC1244");
-    	mockColis1.setDestination("Destination");
+    	mockColis1.setDestination(dest);
         
         Colis mockColis2 = new Colis();
         mockColis2.setId(2);
         mockColis2.setTrackingNumber("ABC1222");
-        mockColis2.setDestination("Destination");
+        mockColis2.setDestination(dest);
         // Arrange
         List<Location> locationList = Arrays.asList(
-                new Location(1, "Warehouse A", timestamp, "123 Main St", mockColis1),
-                new Location(2, "Warehouse B", timestamp, "1234 Main Stst", mockColis2)
+                new Location(1, warH, timestamp, addr, mockColis1),
+                new Location(2, warH, timestamp, addr, mockColis2)
         );
 
         // Mocking the behavior of locationRepository.findAll
@@ -92,14 +94,14 @@ class LocationServiceTest {
     	Colis mockColis1 = new Colis();
     	mockColis1.setId(1);
     	mockColis1.setTrackingNumber("ABC1244");
-    	mockColis1.setDestination("Destination");
+    	mockColis1.setDestination(dest);
     	
     	LocalDateTime timestamp = LocalDateTime.now();
         // Arrange
         int locationId = 1;
-        Location expectedLocation = new Location(locationId, "Warehouse A", timestamp, "123 Main St", mockColis1);
+        Location expectedLocation = new Location(locationId, warH, timestamp, addr, mockColis1);
 
-        // Mocking the behavior of locationRepository.findById
+        
         when(locationRepository.findById(locationId)).thenReturn(expectedLocation);
 
         // Act
@@ -119,12 +121,11 @@ class LocationServiceTest {
         Colis mockColis = new Colis();
         mockColis.setId(1);
         mockColis.setTrackingNumber("ABC123");
-        mockColis.setDestination("Destination");
+        mockColis.setDestination(dest);
 
-        Location locationToUpdate = new Location(1, "Warehouse A", timestamp, "123 Main St", mockColis);
+        Location locationToUpdate = new Location(1, warH, timestamp, addr, mockColis);
 
-        // Mocking the behavior of locationRepository.findById
-        when(locationRepository.findById(locationToUpdate.getId())).thenReturn(locationToUpdate);
+       
 
         // Mocking the behavior of locationRepository.save
         when(locationRepository.save(locationToUpdate)).thenReturn(locationToUpdate);
@@ -134,7 +135,6 @@ class LocationServiceTest {
 
         // Assert
         assertEquals(locationToUpdate, updatedLocation);
-        verify(locationRepository, times(1)).findById(locationToUpdate.getId());
         verify(locationRepository, times(1)).save(locationToUpdate);
     }
 

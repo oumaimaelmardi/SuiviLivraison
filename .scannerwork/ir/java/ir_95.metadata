@@ -1,3 +1,8 @@
-com.example.demo.controllers.UserController#findById(I)Lcom/example/demo/entity/User;
+com.example.demo.services.UserServiceTest#testFindAllUsers()V
+com.example.demo.entity.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+com.example.demo.entity.User#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
 ==
-findById com.example.demo.services.UserService#findById(I)Lcom/example/demo/entity/User;
+findAll com.example.demo.services.UserService#findAll()Ljava/util/List;
+get java.util.List#get(I)Ljava/lang/Object;
+size java.util.List#size()I

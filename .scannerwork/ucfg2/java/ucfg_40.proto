@@ -1,27 +1,14 @@
 
-Fcom.example.demo.services.ColisService#findByUserId(I)Ljava/util/List;o
-e/C:/Users/hp/Desktop/PFA2023/SuiviLivraison/src/main/java/com/example/demo/services/ColisService.javaV V( "1* 
-1W	 W(ù
-ö
-W	 W(1
-%0+com.example.demo.repository.ColisRepository"__id*U
+Ccom.example.demo.services.LocationService#findAll()Ljava/util/List;v
+l/C:/Users/DELL/eclipse-workspace/SuiviLivraison/src/main/java/com/example/demo/services/LocationService.java ("1* 
+1	 (¶
+£
+	 (4
+%0.com.example.demo.repository.LocationRepository"__id*[
 
-__unknown_file (9*7(
-&com.example.demo.services.ColisService"
-	colisRepoˆÛ
-W	 W(#
-%1java.util.List"Kcom.example.demo.repository.ColisRepository#findByUserId(I)Ljava/util/List;*O
-
-__unknown_file (3
-1
-%0+com.example.demo.repository.ColisRepository*"
-
-__unknown_file (
-""2findByUserId(I)""
-W W($
-
-%1java.util.List: 
-
-__unknown_file (
-""B*(
-&com.example.demo.services.ColisServiceH
+__unknown_file (?*=+
+)com.example.demo.services.LocationService"
+locationRepo"
+ ( 
+""B-+
+)com.example.demo.services.LocationServiceH

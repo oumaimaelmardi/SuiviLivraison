@@ -33,12 +33,18 @@ class UserServiceTest {
         MockitoAnnotations.initMocks(this);
     }
 	
+	String name="user1";
+	String gmail="user@gmail.com";
+	String password="userpass123";
+	String prenom="userPrenom";
+	String newU="New User";
+	
 	@Test
     public void testFindUserById() {
         // Arrange
         int userId = 1;
-        User expectedUser = new User(userId, "user1", "userPrenom", "user@gmail.com", "userpass123");
-
+        User expectedUser = new User(userId, name, prenom, gmail, password);
+        
         // Mocking the behavior of userRepository.findById
         when(userRepository.findById(userId)).thenReturn(expectedUser);
 
@@ -54,12 +60,12 @@ class UserServiceTest {
 
 	@Test
     void testSave() {
-        User userToSave = new User(1, "user1", "userPrenom", "user@gmail.com", "userpass123");
-        userToSave.setNom("New User");
+        User userToSave = new User(1, name, prenom, gmail, password);
+        userToSave.setNom(newU);
 
-        User savedUser = new User(1, "user1", "userPrenom", "user@gmail.com", "userpass123");
+        User savedUser = new User(1, name, prenom, gmail, password);
         savedUser.setId(1);
-        savedUser.setNom("New User");
+        savedUser.setNom(newU);
 
         when(userRepository.save(userToSave)).thenReturn(savedUser);
 
@@ -67,7 +73,7 @@ class UserServiceTest {
 
         assertNotNull(returnedUser);
         assertEquals(1, returnedUser.getId());
-        assertEquals("New User", returnedUser.getNom());
+        assertEquals(newU, returnedUser.getNom());
         verify(userRepository, times(1)).save(userToSave);
     }
 	
@@ -87,8 +93,8 @@ class UserServiceTest {
 	    public void testFindAllUsers() {
 	        // Arrange
 	        List<User> userList = Arrays.asList(
-	                new User(1, "user1", "userPrenom1", "user1@gmail.com", "userpass123"),
-	                new User(2, "user2", "userPrenom2", "user2@gmail.com", "userpass123")
+	                new User(1, name, prenom, gmail, password),
+	                new User(2, "user2", prenom, gmail, password)
 	        );
 
 	        // Act

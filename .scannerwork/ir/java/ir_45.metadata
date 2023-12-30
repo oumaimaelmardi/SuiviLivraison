@@ -1,1 +1,1 @@
-com.example.demo.services.ColisService#<init>()V
+com.example.demo.entity.Location#getAddress()Ljava/lang/String;

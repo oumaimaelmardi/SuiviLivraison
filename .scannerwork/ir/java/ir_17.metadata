@@ -1,1 +1,1 @@
-com.example.demo.controllers.ColisController#<init>()V
+com.example.demo.entity.User#getId()I

@@ -1,3 +1,1 @@
-com.example.demo.controllers.ColisController#findAll()Ljava/util/List;
-==
-findAll com.example.demo.services.ColisService#findAll()Ljava/util/List;
+com.example.demo.entity.User#getNom()Ljava/lang/String;

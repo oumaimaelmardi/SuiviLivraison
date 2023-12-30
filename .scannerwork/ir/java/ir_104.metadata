@@ -1,0 +1,3 @@
+com.example.demo.entity.Colis#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Boolean;Lcom/example/demo/entity/User;)V
+==
+<init> java.lang.Object#<init>()V

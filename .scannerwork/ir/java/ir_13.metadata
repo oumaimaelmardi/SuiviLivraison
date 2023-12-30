@@ -1,3 +1,11 @@
-com.example.demo.services.UserService#save(Lcom/example/demo/entity/User;)Lcom/example/demo/entity/User;
+com.example.demo.services.ColisServiceTest#testFindByUserId()V
+java.util.ArrayList#<init>()V
+com.example.demo.entity.Colis#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Boolean;Lcom/example/demo/entity/User;)V
+com.example.demo.entity.Colis#instance-init#
+java.util.ArrayList#instance-init#
 ==
-save com.example.demo.repository.UserRepository#save(Lcom/example/demo/entity/User;)Lcom/example/demo/entity/User;
+findByUserId com.example.demo.repository.ColisRepository#findByUserId(I)Ljava/util/List;
+add java.util.List#add(Ljava/lang/Object;)Z
+findByUserId com.example.demo.services.ColisService#findByUserId(I)Ljava/util/List;
+size java.util.List#size()I
+containsAll java.util.List#containsAll(Ljava/util/Collection;)Z

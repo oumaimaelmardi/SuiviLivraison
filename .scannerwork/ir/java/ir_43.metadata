@@ -1,1 +1,1 @@
-com.example.demo.SuiviDeLivraisonApplicationTests#contextLoads()V
+com.example.demo.entity.Location#getTimestamp()Ljava/time/LocalDateTime;

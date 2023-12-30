@@ -1,1 +1,3 @@
-com.example.demo.repository.UserRepository#<init>()V
+com.example.demo.entity.Colis#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Boolean;Lcom/example/demo/entity/User;)V
+==
+<init> java.lang.Object#<init>()V
